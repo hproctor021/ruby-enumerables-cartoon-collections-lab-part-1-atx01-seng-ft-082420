@@ -9,6 +9,7 @@ end
 def list_dwarves(array)
   index = 0
   array.each_with_index {|name, index|
+  puts "#{index} + . + #{name}"
     array[name] = index }
     print (index + 1).to_s + "." + name
   end
