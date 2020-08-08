@@ -10,4 +10,6 @@ def list_dwarves(array)
   total = 0
   array.each do |name|
     array.length + "." + name
+  end
+  total += 1
 end
