@@ -8,7 +8,7 @@ end
 
 def list_dwarves(array)
   total = 0
-  array.each do |name|
+  array.each_with_index do |name|
     print .to_s + "." + name
   end
   total += 1
