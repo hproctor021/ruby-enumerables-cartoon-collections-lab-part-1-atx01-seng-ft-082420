@@ -12,5 +12,6 @@ def list_dwarves(array)
     array[name] = index }
     print index.to_s + "." + name
   end
+  end
   total += 1
 end
