@@ -13,4 +13,3 @@ def list_dwarves(array)
     print (index + 1).to_s + "." + name
   end
   total += 1
-end
