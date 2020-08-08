@@ -9,7 +9,8 @@ end
 def list_dwarves(array)
   total = 0
   array.each_with_index do |name, index|
-    print .to_s + "." + name
+    array[name] = index
+    print index + "." + name
   end
   total += 1
 end
