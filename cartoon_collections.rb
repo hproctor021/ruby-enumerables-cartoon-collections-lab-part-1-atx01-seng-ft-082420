@@ -10,6 +10,7 @@ def list_dwarves(array)
   total = 0
   array.each_with_index {|name, index|
     array[name] = index }
+  end
     print index.to_s + "." + name
   end
   total += 1
